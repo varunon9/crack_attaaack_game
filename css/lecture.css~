@@ -1,0 +1,45 @@
+
+#content1,#content2{
+	margin-top:40px;
+}
+.part{
+	width:100%;
+	overflow:hidden;
+	font-size:.8em;
+	margin-bottom:10px;
+}
+.left_part{
+	width:30%;
+	float:left;
+	margin-right:2%;
+}
+.right_part{
+	width:68%;
+	float:left;
+}
+.left_part img{
+	width:100%;
+	max-width:200px;
+}
+#content2{
+	//display:none;
+}
+
+.thumbnail img{
+	width:60%;
+	//max-height:200px;
+}
+.caption{
+	font-size:.8em;
+}
+
+/*
+@media only screen and (max-width:380px){
+	#content1{
+		display:none;
+	}
+	#content2{
+		display:inline;
+	}
+}
+*/

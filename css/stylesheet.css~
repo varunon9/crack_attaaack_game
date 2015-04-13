@@ -1,0 +1,317 @@
+img.logo{
+	width:20%;
+}
+#footer{
+	//background-color:silver;
+	background-color:#5E89BA;
+	width:100%;
+	padding:1%;
+	color:white;
+}
+#footer .btn{
+	margin-bottom:5px;
+	//width:80px;
+}
+
+/*======================================Who we are(About us and members) and contact================================================*/
+#about_us, #members,#contact{
+	margin-top:85px;
+	//margin-top:45px;
+	font-size:1em;
+}
+#about_us h2, #members h2, #contact h2{
+	font-size:2em;
+}
+#about_us h3, #members h3, #contact h3{
+	font-size:1.4em;
+}
+#about_us p, #members p, #contact p{
+	font-size:1.1em;
+}
+@media only screen and (max-width:1200px){
+	#about_us, #members, #contact{
+		//margin-top:120px;
+		//margin-top:50px;
+		font-size:.98em;
+	}
+}
+
+#our_programmes{
+	font-weight:lighter;
+}
+#bdc .img-responsive{
+	width:30%;
+	margin-right:1%;
+	float:left;
+}
+#bdc{
+	width:100%;
+	overflow:hidden;
+}
+#members_table1 td img{
+	width:15%;
+	min-width:15px;
+}
+#members_table2 td img{
+	width:15%;
+	min-width:15px;
+}
+@media only screen and (max-width:768px){
+	#about_us, #members, #contact{
+		//margin-top:115px;
+		margin-top:40px;
+		font-size:.85em;
+	}
+	#bdc .img-responsive{
+		width:45%;
+	}
+	#contact{
+		margin-bottom:20px;
+	}
+}
+@media only screen and (max-width:360px){
+	#about_us, #members, #contact{
+		//margin-top:115px;
+		margin-top:30px;
+		font-size:.8em;
+	}
+	#bdc .img-responsive{
+		width:70%;
+	}
+}
+@media only screen and (max-width:320px){
+	#about_us, #members, #contact{
+		//margin-top:115px;
+		margin-top:30px;
+		font-size:.72em;
+	}
+	#bdc .img-responsive{
+		width:90%;
+	}
+}
+#show_you_support{
+	max-width:500px;
+}
+/*========================================================About us, members and Contact ----up ========================================*/
+/*========================================================FAQs===========================================================================*/
+#faqs{
+	margin-top:80px;
+	min-height:500px;
+	background-color: rgba(193, 194, 155, 0.25);
+}
+#faqs p{
+	font-size:1.1em;
+}
+#faqs h2{
+	font-size:1.6em;
+}
+#faqs p a{
+	text-decoration:none;
+	color:black;
+	//font-weight:100;
+	opacity:.75;
+}
+#faqs p a:hover{
+	//font-weight:300;
+	opacity:1;
+}
+@media only screen and (max-width:1280px){
+	#faqs{
+		font-size:.95em;
+	}
+}
+@media only screen and (max-width:768px){
+	#faqs{
+		margin-top:50px;
+		font-size:.85em;
+	}
+}
+@media only screen and (max-width:360px){
+	#faqs{
+		font-size:.8em;
+	}
+}
+@media only screen and (max-width:320px){
+	#faqs{
+		font-size:.75em;
+	}
+}
+/*=======================================Sponsor a child, make donation, helping hands=================================================*/
+#sponsor_a_child,#helping_hands{
+	margin-top:85px;
+	font-size:1em;
+}
+#sponsor_a_child h2,#helping_hands h2{
+	font-size:1.8em;
+}
+#sponsor_a_child p,#helping_hands p{
+	font-size:1.1em;
+}
+#sponsor_a_child .col-md-4 img{
+	width:30%;
+}
+#helping_hands h4{
+	font-size:1.3em;
+	opacity:.7;
+}
+@media only screen and (max-width:1200px){
+	#sponsor_a_child,#helping_hands{
+		font-size:.96em;
+		margin-top:110px;
+	}
+}
+@media only screen and (max-width:992px){
+	#sponsor_a_child .col-md-4 img{
+		width:10%;
+	}
+}
+@media only screen and (max-width:768px){
+	#sponsor_a_child,#helping_hands{
+		font-size:.8em;
+		margin-top:45px;
+	}
+	#sponsor_a_child .col-md-4 img{
+		width:15%;
+	}
+}
+@media only screen and (max-width:380px){
+	#sponsor_a_child,#helping_hands{
+		font-size:.75em;
+	}
+	#sponsor_a_child .col-md-4 img{
+		width:30%;
+	}
+}
+@media only screen and (max-width:320px){
+	#sponsor_a_child,#helping_hands{
+		font-size:.7em;
+	}
+}
+#helping_hands dd{
+	opacity:.7;
+}
+/*===================================================Gallery==============================================================================*/
+#gallery{
+	margin-top:117px;
+}
+@media only screen and (max-width:768px){
+	#gallery{
+		margin-top:50px;
+		//font-size:.85em;
+	}
+}
+/*===================================================Login Signup ===============================================================================*/
+#login_signup{
+	margin-top:117px;
+	font-size:1em;
+}
+#login_signup h2{
+	font-size:1.8em;
+}
+#login_signup p{
+	font-size:1.1em;
+}
+#login_signup .form-signin {
+  max-width: 330px;
+  padding: 15px;
+  //margin: 0 auto;
+}
+.form-signin input[type="text"],.form-signin input[type="password"]{
+	font-size:1em;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media only screen and (max-width:1200px){
+	#login_signup{
+		font-size:.96em;
+		margin-top:110px;
+	}
+}
+@media only screen and (max-width:768px){
+	#login_signup{
+		font-size:.8em;
+		margin-top:45px;
+	}
+}
+@media only screen and (max-width:380px){
+	#login_signup{
+		font-size:.75em;
+	}
+}
+@media only screen and (max-width:320px){
+	#login_signup{
+		font-size:.7em;
+	}
+}
+/*===================================================Interaction======================================================================*/
+#interaction{
+	margin-top:117px;
+	font-size:1em;
+	font-weight:normal;
+}
+#interaction table{
+	font-size:1.1em;
+}
+#interaction h3{
+	font-size:1.4em;
+}
+#interaction p{
+	font-size:1.1em;
+}
+#interaction table tr.danger td:nth-child(1){
+	text-decoration:underline;
+}
+#interaction table tr.active td:nth-child(1){
+	//font-weight:bold;
+	color:green;
+}
+@media only screen and (max-width:1200px){
+	#interaction{
+		font-size:.96em;
+		//margin-top:110px;
+	}
+}
+@media only screen and (max-width:768px){
+	#interaction{
+		font-size:.8em;
+		margin-top:55px;
+	}
+}
+@media only screen and (max-width:380px){
+	#interaction{
+		font-size:.75em;
+	}
+}
+@media only screen and (max-width:320px){
+	#interaction{
+		font-size:.7em;
+	}
+}

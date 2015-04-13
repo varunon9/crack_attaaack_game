@@ -1,0 +1,149 @@
+body{
+  color:black !important;
+}
+#bookshelf1{
+  width:100%;
+  background-color:white;
+  overflow:hidden;
+  padding:1em;
+  margin-top:65px;
+  font-weight:lighter;
+}
+#bookshelf1_right{
+  width:49%;
+  overflow:hidden;
+  border-right-style:solid;
+  float:left;
+}
+#bookshelf1_right_down a{
+  color:black;
+  text-decoration:none;
+}
+#bookshelf1_left{
+  width:49%;
+  overflow:hidden;
+  float:right;
+}
+#bookshelf1_about_us{
+  width:100%;
+  overflow:hidden;
+}
+#bookshelf1_about_us img{
+  float:right;
+  width:33%;
+}
+#bookshelf1_founders{
+  width:100%;
+  overflow:hidden;
+}
+#bookshelf1_founders  img{
+  width:20%;
+  float:left;
+  min-height:70px;
+  max-height:135px;
+}
+#bookshelf1_left_top{
+  border-bottom-style:solid;
+}
+#bookshelf1_right_top{
+  border-bottom-style:solid;
+}
+#featured_books{
+  width:100%;
+  overflow:hidden;
+}
+.question{
+  color:purple;
+  font-weight:bold;
+}
+.answer{
+  color:black;
+}
+.books{
+  float:left;
+  //clear:both;
+  margin:.3em;
+  width:25%;
+  background-color:silver;
+}
+.books img{
+  width:100%;
+  max-height:200px;
+}
+#bookshelf2{
+  background-color:white;
+  width:100%;
+  overflow:hidden;
+  //margin-top:45px;
+}
+#featured_books2{
+  background-color:white;
+  width:100%;
+  overflow:hidden;
+}
+#featured_books2 .books{
+  float:left;
+  //clear:both;
+  margin:.3em;
+  width:13%;
+  background-color:silver;
+}
+#featured_books2 .books img{
+  width:100%;
+  max-height:200px;
+  //min-height:100px;
+}
+#bookshelf2 a{
+  color:black;
+  text-decoration:none;
+}
+@media only screen and (max-width:1200px){
+	#bookshelf1{
+		margin-top:130px;
+		//margin-top:50px;
+		font-size:.98em;
+	}
+}
+@media only screen and (max-width:1000px){
+  #bookshelf1{
+    font-size:.95em;
+  }
+}
+@media only screen and (max-width:800px){
+  #bookshelf1{
+    font-size:.90em;
+  }
+}
+@media only screen and (max-width:768px){
+	#bookshelf1{
+		//margin-top:115px;
+		margin-top:50px;
+		//font-size:.85em;
+	}
+	
+}
+
+@media only screen and (max-width:600px){
+  #bookshelf1{
+    font-size:.8em;
+  }
+}
+@media only screen and (max-width:400px){
+  #bookshelf1{
+    font-size:.7em;
+  }
+  #bookshelf1_left{
+    width:100%;
+  }
+  #bookshelf1_right{
+    width:100%;
+	//float:left;
+	border-style:none;
+  }
+}
+
+@media only screen and (max-width:200px){
+  #bookshelf1{
+    font-size:.6em;
+  }
+}
